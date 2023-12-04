@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen{
+     width: 97%;
+     height: 30%;
+    text-align: right;
+    border-radius: 29px;
+    font-size: 30px;
+    
+    }
+
+.one{
+    
+    font-size: 35px;
+    width: 100%;
+    text-align: right;
+    background-color: grey;
+    border: none;
+
+
+    
+}
+.two{
+    
+    font-size: 20px;
+    text-align: right;
+    width: 100%;
+    background-color: gray;
+    border: none;
+    
+    
+
+}
+
+.black{
+    height: 50%;
+    width: 30%;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 6% auto;
+    border-radius: 8px;
+    padding: 8px;
+    
+
+
+}
+
+.content{
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 10%;
+    
+    
+    
+}
+.flex{
+    font-size: 35px;
+    color: white;
+    border-radius: 20px;
+    height: 100%;
+    width: 10%;
+    border: none;
+    background-color: rgb(230, 121, 121);
+    
+}
+.we{
+    width: 30px;
+    height: 45px;
+    background-color: rgb(41, 33, 33);
+    color: white;
+    border-radius: 12px;
+    font-size: 40px;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 90%;
+    gap: 10px;
+    margin-left: 15px;
+
+    
+    
+    
+}
+
+
+
+
+.grid button{
+    font-size: 30px;
+    border-radius: 430px;
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    font-size: 40px;
+    box-shadow: inset 0 4px 5px black;
+
+}
+#ac{
+    background-color: brown;
+
+}
+#eql{
+    background-color: blue;
+}
